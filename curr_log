@@ -1,0 +1,258 @@
+2022-03-16 14:36:09,944 From /content/drive/MyDrive/ummkd-master/train_combine.py:17: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2022-03-16 14:36:09,945 From /content/drive/MyDrive/ummkd-master/network.py:40: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2022-03-16 14:36:09,945 From /content/drive/MyDrive/ummkd-master/network.py:49: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-03-16 14:36:09,955 From /content/drive/MyDrive/ummkd-master/network.py:55: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2022-03-16 14:36:09,957 From /content/drive/MyDrive/ummkd-master/network.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-03-16 14:36:09,958 From /content/drive/MyDrive/ummkd-master/util.py:11: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+2022-03-16 14:36:09,958 From /content/drive/MyDrive/ummkd-master/util.py:12: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2022-03-16 14:36:09,990 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2022-03-16 14:36:11,523 From /content/drive/MyDrive/ummkd-master/util.py:54: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2022-03-16 14:36:11,576 From /content/drive/MyDrive/ummkd-master/util.py:123: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2022-03-16 14:36:18,070 From /content/drive/MyDrive/ummkd-master/network.py:67: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+2022-03-16 14:43:06,520 From /content/drive/MyDrive/ummkd-master/train_combine.py:17: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2022-03-16 14:43:06,522 From /content/drive/MyDrive/ummkd-master/network.py:40: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2022-03-16 14:43:06,522 From /content/drive/MyDrive/ummkd-master/network.py:49: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-03-16 14:43:06,525 From /content/drive/MyDrive/ummkd-master/network.py:55: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2022-03-16 14:43:06,528 From /content/drive/MyDrive/ummkd-master/network.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-03-16 14:43:06,528 From /content/drive/MyDrive/ummkd-master/util.py:11: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+2022-03-16 14:43:06,528 From /content/drive/MyDrive/ummkd-master/util.py:12: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2022-03-16 14:43:06,546 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2022-03-16 14:43:07,443 From /content/drive/MyDrive/ummkd-master/util.py:54: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2022-03-16 14:43:07,496 From /content/drive/MyDrive/ummkd-master/util.py:123: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2022-03-16 14:43:13,933 From /content/drive/MyDrive/ummkd-master/network.py:67: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+2022-03-16 14:43:14,030 From /content/drive/MyDrive/ummkd-master/network.py:209: The name tf.log is deprecated. Please use tf.math.log instead.
+
+2022-03-16 14:43:14,393 From /content/drive/MyDrive/ummkd-master/util.py:128: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2022-03-16 14:43:14,420 From /content/drive/MyDrive/ummkd-master/util.py:130: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+2022-03-16 14:43:14,574 Network built
+2022-03-16 14:43:14,575 From /content/drive/MyDrive/ummkd-master/train_combine.py:52: string_input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(string_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+2022-03-18 09:12:30,886 From /content/drive/MyDrive/ummkd-master/train_combine.py:17: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2022-03-18 09:12:33,427 From /content/drive/MyDrive/ummkd-master/network.py:40: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2022-03-18 09:12:33,427 From /content/drive/MyDrive/ummkd-master/network.py:49: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-03-18 09:12:33,439 From /content/drive/MyDrive/ummkd-master/network.py:55: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2022-03-18 09:12:33,442 From /content/drive/MyDrive/ummkd-master/network.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-03-18 09:12:33,442 From /content/drive/MyDrive/ummkd-master/util.py:11: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+2022-03-18 09:12:33,443 From /content/drive/MyDrive/ummkd-master/util.py:12: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2022-03-18 09:12:33,486 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2022-03-18 09:12:35,123 From /content/drive/MyDrive/ummkd-master/util.py:54: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2022-03-18 09:12:35,173 From /content/drive/MyDrive/ummkd-master/util.py:123: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2022-03-18 09:12:41,589 From /content/drive/MyDrive/ummkd-master/network.py:67: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+2022-03-18 09:12:41,682 From /content/drive/MyDrive/ummkd-master/network.py:209: The name tf.log is deprecated. Please use tf.math.log instead.
+
+2022-03-18 09:12:42,042 From /content/drive/MyDrive/ummkd-master/util.py:128: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2022-03-18 09:12:42,089 From /content/drive/MyDrive/ummkd-master/util.py:130: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+2022-03-18 09:12:42,240 Network built
+2022-03-18 09:12:42,240 From /content/drive/MyDrive/ummkd-master/train_combine.py:52: string_input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(string_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+2022-03-18 09:12:42,264 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:277: input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(input_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+2022-03-18 09:12:42,265 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:189: limit_epochs (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensors(tensor).repeat(num_epochs)`.
+2022-03-18 09:12:42,267 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:198: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2022-03-18 09:12:42,268 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:198: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2022-03-18 09:12:42,321 Allocating '/data/projects/multimodal_learning/exp_results/multimodal-bn-kd-KL'
+2022-03-18 09:12:42,367 From /content/drive/MyDrive/ummkd-master/train_combine.py:73: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2022-03-18 09:12:42,697 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2022-03-18 09:13:01,864 From /content/drive/MyDrive/ummkd-master/train_combine.py:268: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2022-03-18 09:13:01,870 From /content/drive/MyDrive/ummkd-master/train_combine.py:277: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+2022-03-18 09:13:01,893 From /content/drive/MyDrive/ummkd-master/train_combine.py:295: The name tf.summary.merge is deprecated. Please use tf.compat.v1.summary.merge instead.
+
+2022-03-18 09:13:01,896 From /content/drive/MyDrive/ummkd-master/train_combine.py:100: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-03-18 09:13:01,902 From /content/drive/MyDrive/ummkd-master/train_combine.py:101: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+2022-03-18 09:13:01,902 From /content/drive/MyDrive/ummkd-master/train_combine.py:101: The name tf.local_variables is deprecated. Please use tf.compat.v1.local_variables instead.
+
+2022-03-18 09:13:01,903 From /content/drive/MyDrive/ummkd-master/train_combine.py:102: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2022-03-18 09:13:01,903 From /content/drive/MyDrive/ummkd-master/train_combine.py:108: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-03-18 09:13:08,579 From /content/drive/MyDrive/ummkd-master/train_combine.py:112: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2022-03-18 09:13:17,038 Training the segmenter model from scratch
+2022-03-18 09:13:17,039 From /content/drive/MyDrive/ummkd-master/train_combine.py:331: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+2022-03-18 09:13:17,041 From /content/drive/MyDrive/ummkd-master/train_combine.py:333: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+2022-03-18 09:13:17,054 From /content/drive/MyDrive/ummkd-master/train_combine.py:349: shuffle_batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.shuffle(min_after_dequeue).batch(batch_size)`.
+2022-03-18 09:13:17,128 From /content/drive/MyDrive/ummkd-master/train_combine.py:121: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2022-03-18 09:13:18,538 Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.CancelledError'>, Session has been closed.
+2022-03-18 09:18:33,229 From /content/drive/MyDrive/ummkd-master/train_combine.py:17: The name tf.FixedLenFeature is deprecated. Please use tf.io.FixedLenFeature instead.
+
+2022-03-18 09:18:35,353 From /content/drive/MyDrive/ummkd-master/network.py:40: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2022-03-18 09:18:35,354 From /content/drive/MyDrive/ummkd-master/network.py:49: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-03-18 09:18:35,369 From /content/drive/MyDrive/ummkd-master/network.py:55: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2022-03-18 09:18:35,371 From /content/drive/MyDrive/ummkd-master/network.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-03-18 09:18:35,372 From /content/drive/MyDrive/ummkd-master/util.py:11: The name tf.AUTO_REUSE is deprecated. Please use tf.compat.v1.AUTO_REUSE instead.
+
+2022-03-18 09:18:35,372 From /content/drive/MyDrive/ummkd-master/util.py:12: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2022-03-18 09:18:35,408 
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+2022-03-18 09:18:36,989 From /content/drive/MyDrive/ummkd-master/util.py:54: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2022-03-18 09:18:37,038 From /content/drive/MyDrive/ummkd-master/util.py:123: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+2022-03-18 09:18:43,470 From /content/drive/MyDrive/ummkd-master/network.py:67: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+2022-03-18 09:18:43,569 From /content/drive/MyDrive/ummkd-master/network.py:209: The name tf.log is deprecated. Please use tf.math.log instead.
+
+2022-03-18 09:18:43,946 From /content/drive/MyDrive/ummkd-master/util.py:128: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+2022-03-18 09:18:43,992 From /content/drive/MyDrive/ummkd-master/util.py:130: div (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Deprecated in favor of operator or tf.math.divide.
+2022-03-18 09:18:44,135 Network built
+2022-03-18 09:18:44,136 From /content/drive/MyDrive/ummkd-master/train_combine.py:52: string_input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(string_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+2022-03-18 09:18:44,158 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:277: input_producer (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensor_slices(input_tensor).shuffle(tf.shape(input_tensor, out_type=tf.int64)[0]).repeat(num_epochs)`. If `shuffle=False`, omit the `.shuffle(...)`.
+2022-03-18 09:18:44,159 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:189: limit_epochs (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.from_tensors(tensor).repeat(num_epochs)`.
+2022-03-18 09:18:44,160 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:198: QueueRunner.__init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2022-03-18 09:18:44,161 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/training/input.py:198: add_queue_runner (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2022-03-18 09:18:44,212 Allocating '/data/projects/multimodal_learning/exp_results/multimodal-bn-kd-KL'
+2022-03-18 09:18:44,288 From /content/drive/MyDrive/ummkd-master/train_combine.py:73: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2022-03-18 09:18:44,609 From /tensorflow-1.15.2/python3.7/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2022-03-18 09:19:03,883 From /content/drive/MyDrive/ummkd-master/train_combine.py:268: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2022-03-18 09:19:03,889 From /content/drive/MyDrive/ummkd-master/train_combine.py:277: The name tf.summary.image is deprecated. Please use tf.compat.v1.summary.image instead.
+
+2022-03-18 09:19:03,911 From /content/drive/MyDrive/ummkd-master/train_combine.py:295: The name tf.summary.merge is deprecated. Please use tf.compat.v1.summary.merge instead.
+
+2022-03-18 09:19:03,913 From /content/drive/MyDrive/ummkd-master/train_combine.py:100: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-03-18 09:19:03,918 From /content/drive/MyDrive/ummkd-master/train_combine.py:101: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+2022-03-18 09:19:03,919 From /content/drive/MyDrive/ummkd-master/train_combine.py:101: The name tf.local_variables is deprecated. Please use tf.compat.v1.local_variables instead.
+
+2022-03-18 09:19:03,919 From /content/drive/MyDrive/ummkd-master/train_combine.py:102: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2022-03-18 09:19:03,919 From /content/drive/MyDrive/ummkd-master/train_combine.py:108: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-03-18 09:19:10,607 From /content/drive/MyDrive/ummkd-master/train_combine.py:112: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+2022-03-18 09:19:18,862 Training the segmenter model from scratch
+2022-03-18 09:19:18,862 From /content/drive/MyDrive/ummkd-master/train_combine.py:331: TFRecordReader.__init__ (from tensorflow.python.ops.io_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.TFRecordDataset`.
+2022-03-18 09:19:18,864 From /content/drive/MyDrive/ummkd-master/train_combine.py:333: The name tf.parse_single_example is deprecated. Please use tf.io.parse_single_example instead.
+
+2022-03-18 09:19:18,876 From /content/drive/MyDrive/ummkd-master/train_combine.py:349: shuffle_batch (from tensorflow.python.training.input) is deprecated and will be removed in a future version.
+Instructions for updating:
+Queue-based input pipelines have been replaced by `tf.data`. Use `tf.data.Dataset.shuffle(min_after_dequeue).batch(batch_size)`.
+2022-03-18 09:19:18,950 From /content/drive/MyDrive/ummkd-master/train_combine.py:121: start_queue_runners (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+2022-03-18 09:19:18,975 Running step 0 epoch 0 ...
+2022-03-18 09:19:20,753 Error reported to Coordinator: <class 'tensorflow.python.framework.errors_impl.NotFoundError'>, 2 root error(s) found.
+  (0) Not found: mr_train_tfs/mr_train_slice3459.tfrecords; No such file or directory
+	 [[{{node ReaderReadV2}}]]
+	 [[DecodeRaw/_13]]
+  (1) Not found: mr_train_tfs/mr_train_slice3459.tfrecords; No such file or directory
+	 [[{{node ReaderReadV2}}]]
+0 successful operations.
+0 derived errors ignored.
